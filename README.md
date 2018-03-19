@@ -1,2 +1,3 @@
 # My Calendar
-Hello! My Calendar is an app that tell you of what Day you have Period and gives information about yourself but basically for those couple that are sex devoted. You can also make an event, like Birthdays, Party and etc.
+My Calendar is an extremely elegant and easy-to-use application that helps women keep track of periods, cycle, ovulation, and fertile days. Whether you are concerned about conceiving, birth control, contraception, or regularity of period cycles, Period Calendar can help.
+Users simply enter some data relating to their period as well as age and body type and the app will send them an alert in advance so that they are not taken by surprise. Women who are looking for an easy way to keep track of when their period is due are sure to find that Period Calendar is a very useful tool.This app you can also create events like Birthdays, Parties, Meetings and other important event.
