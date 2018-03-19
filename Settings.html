@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Calendar</title>
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!--Style-->
+		<link rel="stylesheet" href="bootstrap/Style/simple-sidebar.css">
+		<style>
+			body{
+	background: pink;}
+			.form-group{
+				text-align:left;
+				margin-left:200px;
+				}
+						.style{
+				background-color: white;
+				}
+		</style>
+	</head>
+	<body>
+
+		<div id="wrapper">
+
+			<!-- Sidebar -->
+			<div id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+				<img src="calendar.png" width="200" height="200">
+					<li class="sidebar-brand">
+						<a href="Home.html">
+						
+						  My Calendar
+						
+						</a>
+						
+					</li>
+					<li>
+						<a>PERSONALIZE</a>
+						<a href="period.html">Theme</a>
+						<a href="period.html">Calendar</a>
+						<a>ACCOUNT</a>
+						<a href="period.html">Password</a>
+						<a href="period.html">Add another user</a>
+						<a>SUPPORT US</a>
+						<a href="period.html">Community</a>
+						<a href="period.html">Rate us on Google</a>
+						<a href="period.html">Share with friends</a>
+					</li>
+
+				</ul>
+			</div>
+			<!-- /#sidebar-wrapper -->
+
+			<!-- Page Content -->
+			<div class="style" id="page-content-wrapper">
+				<div class="container" id="dot">
+					
+					<a href="#menu-toggle" class="btn btn-dark" id="menu-toggle">Settings</a>
+
+				</div>
+				
+			</div>
+			<br><br><br>
+			<!-- /#page-content-wrapper -->
+			<!-- /#wrapper -->
+
+			<!-- Bootstrap core JavaScript -->
+			<script src="Menu/jquery/jquery.min.js"></script>
+			<script src="Menu/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+			<!-- Menu Toggle Script -->
+			<script>
+			$("#menu-toggle").click(function(e) {
+				e.preventDefault();
+				$("#wrapper").toggleClass("toggled");
+			});
+			</script>
+			</div>
+<div class="container">
+	<div class="page-header">
+		<div class="row">
+		<p class="lead"></p>
+	</div>
+	<div id="app"></div>
+</div>
+<script src="dist/vbc-browser.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<DOCTYP html>
+<html>	
+	<head>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!--Style-->
+	<link rel="stylesheet" href="bootstrap/Style/simple-sidebar.css">
+		<style>
+	body{
+	background: pink;}
+
+		.style{
+		#incomebutton{
+			margin-left: 15px;
+			}
+		#signup{
+			margin-left: 300px;
+			}
+		</style>
+	</head>
+	<script>
+		function Save(){
+			var guest_name = document.getElementById("exampleInputName");
+			var email =  document.getElementById('exampleInputEmail1'); 
+			var password = document.getElementById('exampleInputPassword1');
+			if(guest_name.value  && email.value && password.value){
+				localStorage.setItem("Name",guest_name.value);
+				localStorage.setItem("Email",email.value);
+				localStorage.setItem("Password",password.value);
+				alert("Account record Successfully Saved!!!")
+			}else{
+				alert("Please don't leave empty fields");
+			}
+			
+		
+		}
+	</script>
+	<br>
+<center><img src="calendar.png" width="200" height="200"></center>
+<div class="container">
+	<div style="color: red; font-weight: bold;">
+			<!-- /#page-content-wrapper -->
+			<!-- /#wrapper -->
+
+			<!-- Bootstrap core JavaScript -->
+			<script src="Menu/jquery/jquery.min.js"></script>
+			<script src="Menu/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+			<!-- Menu Toggle Script -->
+			<script>
+			$("#menu-toggle").click(function(e) {
+				e.preventDefault();
+				$("#wrapper").toggleClass("toggled");
+			});
+			</script><br>
+<body>
+<center><h3>My Calendar</h3></center>
+<div class="container">
+	<div class="row">
+		<div class="col-8 offset-2">
+			<form>
+			<div style="font-size: 30px;">Sing up</div>
+				<div class="form-group">
+					<label for="exampleInputName">Name</label>
+					<input type="text" class="form-control" id="exampleInputName" placeholder="Enter Name" autofocus />
+								
+
+				  <div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"  />
+					
+				  </div>
+				  <div class="form-group">
+					<label for="exampleInputPassword1">Password</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
+				  </div>
+				  
+				  <button type="button" onclick="Save()" class="btn btn-block btn-lg btn-primary">Save</button>
+					
+					<p class="text-center">Sign in  <a href="login.html">here</a></p>
+	
+			</form>
+		</div>
+		</div>
+	</div>
+	</div>
+	</div>
+</div>
+	
+
+</body>
+</html>
